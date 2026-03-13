@@ -8,7 +8,7 @@ A full-stack consulting engagement skill for Claude Code. Drop in a business que
 
 Download [`consulting-gauntlet.skill`](./consulting-gauntlet.skill) and drag it into Claude Code's skill settings.
 
-That's it. No `/` commands needed — just describe your engagement naturally.
+That's it. No `/` commands needed — just describe your engagement naturally. I would recommend dividing the engagement problem into parts and then using this skill to prepare documents for each part to have richer research done by the agents.
 
 ---
 
